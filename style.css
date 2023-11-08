@@ -1,0 +1,98 @@
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); /* adicionando a imagem de café no fundo*/
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0; /*distancia do h1 da margem superior*/
+  margin-bottom: 15px; /*distancia do h1 para o h2*/
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.established { /*serve para colocar a classe em italico*/
+  font-style: italic;
+}
+
+/* centralizando os títulos*/
+h1, h2, p {
+  text-align: center;
+}
+
+.menu { /* edita tudo que está usando o id=menu dentro da tag <div>*/
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto; /* centraliza o texto do menu na tela */
+  margin-right: auto; /* centraliza o texto do menu na tela */
+  padding: 20px; /*serve para adicionar margens laterais no menu*/
+  max-width: 500px; /* serve para o menu não passar de 500 pixels em telas maiores que um tablete, assim o preço e o
+  produto sempre ficam próximos, mantendo a aparência de menu/cardápio*/
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
+hr { /* altera a cor e grossura da linha de separação de conteúdo*/
+  height: 2px;
+  background-color: brown;
+  border-color: brown; /*por padrão a borda da linha é cinza. Aqui trocamos a cor para marrom*/
+}
+
+.bottom-line { /*definir distância entre o último doce e a linha de hr*/
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: Impact, serif;
+}
+
+.item p { /* serve considerar o nome do café e o preço ma mesma linha*/
+  display: inline-block;
+  margin-top: 5px; /*margin entre parágrafos*/
+  margin-bottom: 5px; /*margin entre parágrafos (diminuir distância entre eles)*/
+  font-size: 18px;
+}
+
+.flavor, .dessert { /*serve para alinhar a classe do nome do café e do nome do doce a esquerda */
+  text-align: left;
+  width: 75%;
+}
+
+.price { /* serve para alinhar a classe preço a direita*/
+  text-align: right;
+  width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited { /*cor caso o link já tenha sido visitado*/
+  color: black;
+}
+
+a:hover { /*se o mouse passar pelo link, muda de cor*/
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
